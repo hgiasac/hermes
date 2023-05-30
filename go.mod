@@ -1,4 +1,4 @@
-module github.com/matcornic/hermes/v2
+module github.com/hgiasac/hermes/v2
 
 require (
 	github.com/Masterminds/sprig v2.22.0+incompatible
