@@ -38,8 +38,7 @@ jobs:
       - name: Go coverage format
         run: |
           go get github.com/boumenot/gocover-cobertura
-          ls -l $GOROOT
-          gocover-cobertura < coverage.out > coverage.xml
+          $GOROOT/bin/gocover-cobertura < coverage.out > coverage.xml
       - name: Code Coverage Summary Report
         uses: irongut/CodeCoverageSummary@v1.3.0
         with:
